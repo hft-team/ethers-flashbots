@@ -36,7 +36,7 @@ ethers = {git = "https://github.com/hft-team/ethers-rs", rev = "8b5f20a", defaul
 
 [dev-dependencies]
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
-ethers = { version = "2.0.0", default-features = false }
+ethers = {git = "https://github.com/hft-team/ethers-rs", rev = "8b5f20a", default-features = false }
 eyre = "0.6"
 
 [features]
